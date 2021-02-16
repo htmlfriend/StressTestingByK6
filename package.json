@@ -1,0 +1,15 @@
+{
+  "name": "testfork6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "k6 run -u 10 -d 30s firstscript.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
+}
